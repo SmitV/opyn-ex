@@ -1,0 +1,164 @@
+.opyn-trade__modal-container {
+  margin-top: 19vh;
+}
+
+.opyn-trade__modal-contents {
+  width: 427px;
+  border-radius: 10px;
+  padding: 16px;
+  z-index: 5;
+  background-color: #1b1b1b;
+}
+
+.opyn-trade__setting-options {
+  list-style: none;
+}
+
+.opyn-trade__setting-options button {
+  margin-left: 5px;
+  border-radius: 5px;
+  border: none;
+  padding: 6px;
+  font-size: 16px;
+  color: white;
+  background: rgb(38, 40, 41);
+}
+
+.opyn-trade__input-container {
+  color: white;
+}
+
+.opyn-trade__input-container label {
+  text-align: left;
+  margin-left: 6px;
+}
+
+.opyn-trade__input-container input {
+  height: 36px;
+  border-top-right-radius: 14px;
+  border-bottom-right-radius: 14px;
+  border: none;
+  outline: none !important;
+  text-align: right;
+  padding: 12px 15px;
+  font-size: 16px;
+  background: #313131;
+  color: white;
+  margin: auto 0;
+}
+
+.opyn-trade__primary-btn {
+  height: 70px;
+  width: 100%;
+  font-size: 24px;
+  font-weight: 500;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  background-image: linear-gradient(45deg, #0d54a3, #55bcae);
+  outline: none !important;
+}
+
+.opyn-trade__primary-btn:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.opyn-trade__side-swap {
+  margin: auto;
+  font-size: 30px;
+  color: #07509c;
+  margin-top: 14px;
+  outline: none !important;
+
+  &:hover {
+    cursor: pointer;
+    opacity: 0.7;
+  }
+}
+
+.opyn-trade__token-btn {
+  height: 60px;
+  padding: 12px 19px;
+  line-height: 12px;
+  text-align: left;
+  border-top-left-radius: 14px;
+  border-bottom-left-radius: 14px;
+  font-size: 16px;
+  background: #313131;
+  color: white;
+  border: none;
+}
+
+.opyn-trade__approve-btn {
+  text-transform: uppercase;
+  font-size: 12px;
+  height: 36px;
+  font-weight: bold;
+  margin: auto;
+  border-radius: 20px;
+  border: 1px solid #2d7da8;
+  background: #313f4c;
+  color: #007bd4;
+  width: 95px;
+  outline: none !important;
+
+  svg {
+    margin: auto;
+  }
+
+  &:hover {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+}
+
+.opyn-trade__value-container {
+  background: #313131;
+  border-radius: 20px;
+  padding: 0 10px;
+}
+
+.opyn-trade__detail-container li {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 0;
+  font-size: 14px;
+}
+
+.opyn-trade__detail-container {
+  padding: 0;
+  margin-left: 5px;
+}
+
+.opyn-trade__conv-container {
+  font-size: 14px;
+  color: gray;
+  font-weight: 500;
+}
+
+.opyn-trade__primary-btn-invalid {
+  background-color: rgb(21, 32, 43) !important;
+  background-image: none;
+
+  &:hover {
+    opacity: 1;
+    cursor: default;
+  }
+}
+
+.opyn-trade__label-span {
+  font-size: 12px;
+  line-height: 22px;
+  color: gray;
+  margin-right: 5px;
+}
+
+.opyn-trade__label-click {
+  color: white !important;
+  text-decoration: underline;
+}
+
+.opyn-trade__label-click:hover {
+  opacity: 0.8;
+}
